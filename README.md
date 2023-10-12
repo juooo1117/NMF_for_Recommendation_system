@@ -31,6 +31,12 @@
    - 네이버블로그(1360개): 네이버블로그 ‘오늘일기’를 키워드로 크롤링 후 본문에 해당하는 열 정보만 리스트(contents)로 저장
    - 블라인드(21372개)
 
+
+#### [참고] Keyword Category
+<p align="center">
+  <img src="https://github.com/juooo1117/NMF_for_Recommendation_system/assets/95035134/b7d8d8f6-6ca3-48ba-a3d3-8304a60f50ed">
+</p>
+
     
 #### 3. 데이터 전처리(형태소 분석)
    - 형태소 분석기 중 (Kkma, Komoran, Hannanum, Mecab, Okt)  Okt로 선택 및 설치
@@ -43,6 +49,11 @@
 
 
 #### [Modeling Flow]
+<p align="center">
+  <img src="https://github.com/juooo1117/NMF_for_Recommendation_system/assets/95035134/395175d1-85e0-4b27-a22e-eb9132e94a9c">
+</p>
+
+
 #### 1. TF-IDF
    - TfidfVectorizer 에 적용하기 위해서 모든 전처리가 완료된 데이터를 문장으로 만듦 (명사만 추출되어 문장화 된 형태)
    - sklearn의 TfidfVectorizer 사용 → 2개 미만의 문서 또는 90%이상의 문서에서 발생하는 단어는 제외
