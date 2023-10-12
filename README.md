@@ -42,7 +42,7 @@
   ###   Clustering with NMF Model 적용
 
 
-### [Modeling Flow]
+#### [Modeling Flow]
 #### 1. TF-IDF
    - TfidfVectorizer 에 적용하기 위해서 모든 전처리가 완료된 데이터를 문장으로 만듦 (명사만 추출되어 문장화 된 형태)
    - sklearn의 TfidfVectorizer 사용 → 2개 미만의 문서 또는 90%이상의 문서에서 발생하는 단어는 제외
